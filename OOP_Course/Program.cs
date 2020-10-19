@@ -11,10 +11,10 @@ namespace OOP_Course
         static void Main(string[] args)
         {
             HomePage myHomePage = new HomePage();
-            myHomePage.MetodaMea(23, "test");
+            //myHomePage.MetodaMea(23, "test");
+            myHomePage.SetCurs();
 
-
-            Tutorial myTutorial = new Tutorial();
+            //Tutorial myTutorial = new Tutorial();
 
 
             // use the class constructor

@@ -14,11 +14,25 @@ namespace OOP_Course
         protected int Duration { get; set; }
 
 
+        //override
+        public virtual void SetCurs()
+        {
+            Console.WriteLine("This is the base method.");
+        }
+
         protected void SetCurs(int id, string nume)
         {
             Courseid = id;
             Name = nume;
         }
+
+        //overload
+        protected void SetCurs(int duration)
+        {
+            Duration = duration;
+        }
+
+
         //---------------------------------------------------------
 
 
